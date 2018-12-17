@@ -8,7 +8,7 @@ cache:
     - "node_modules"
 sudo: false
 install:
-  -npm install
+  -npm i -g npm@6.1.0
 script:
   - npm test
 deploy:
